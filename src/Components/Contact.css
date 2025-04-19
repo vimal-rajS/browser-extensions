@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+
+.contact-bg {
+  background-image: url(../assets/contact-bg.jpg);
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-bg > h1 {
+  position: relative;
+  left: -25%;
+  font-family: "Zen Tokyo Zoo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  padding: 10px 15px;
+}
+.feedback > h1 {
+  font-family: "Cormorant Unicase", serif;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 2.5rem;
+}
+.feedback-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px ;
+}
+.feedback-container {
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+.form-email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+.form-description {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+}
+
+#email,
+#name,
+#number {
+  padding: 10px;
+}
+#description {
+  width: 250px;
+  padding: 10px 5px;
+}
+.form-submit {
+  display: flex;
+  justify-content: center;
+  margin: 15px 5px;
+}
+.form-submit > button {
+  padding: 5px 15px;
+  background-color: rgb(157, 37, 255);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.form-submit > button:hover {
+  background-color: rgb(179, 102, 241);
+}
+@media only screen and (max-width: 576px) {
+  .contact-bg {
+    background-image: url(../assets/contact-bg.jpg);
+    height: 35vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-bg > h1 {
+    position: relative;
+    left: -25%;
+    font-family: "Zen Tokyo Zoo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .contact-bg {
+    background-image: url(../assets/contact-bg.jpg);
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-bg > h1 {
+    position: relative;
+    left: -25%;
+    font-family: "Zen Tokyo Zoo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding: 10px 15px;
+  }
+}

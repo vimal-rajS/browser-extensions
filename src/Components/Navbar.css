@@ -1,0 +1,227 @@
+.parent-navbar {
+  background-color: ghostwhite;
+  padding: 10px;
+  position: sticky;
+  top: 0; 
+  padding: 10px;
+  text-align: center;
+  z-index: 1100;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.title-bar {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-family: "IM Fell English SC", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #303ab2;
+}
+.title::after {
+  content: "Hub";
+  color: red;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.navigation {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+.home-btn {
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: ghostwhite;
+  align-items: center;
+}
+.home-btn:hover {
+  cursor: pointer;
+}
+.navbar-title {
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: "Outfit";
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+.cart-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: ghostwhite;
+}
+.cart-btn:hover {
+  cursor: pointer;
+}
+.cart-btn > h2 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: "Outfit";
+  text-transform: uppercase;
+}
+.shop-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: ghostwhite;
+}
+.shop-btn:hover {
+  cursor: pointer;
+}
+.shop-btn > h2 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: "Outfit";
+  text-transform: uppercase;
+}
+.contact-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: ghostwhite;
+}
+.contact-btn:hover {
+  cursor: pointer;
+}
+.contact-btn > h2 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: "Outfit";
+  text-transform: uppercase;
+}
+.about-btn {
+  outline: none;
+  border: none;
+  background-color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-btn:hover {
+  cursor: pointer;
+}
+.about-btn > h2 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: "Outfit";
+  text-transform: uppercase;
+}
+.menu-btn {
+  outline: none;
+  border: none;
+  background-color: ghostwhite;
+}
+.about-btn:hover {
+  cursor: pointer;
+}
+
+.menu-bar {
+  display: none;
+}
+.menu-bar:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .parent-navbar {
+    position: initial;
+  }
+  .home-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+    width: 100px;
+    background-color: white;
+  }
+
+  .home-btn > h2 {
+    font-size: 1.1rem;
+  }
+  .about-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+    width: 100px;
+    background-color: white;
+  }
+
+  .about-btn > h2 {
+    font-size: 1.1rem;
+  }
+  .shop-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+    width: 100px;
+    background-color: white;
+  }
+
+  .shop-btn > h2 {
+    font-size: 1.1rem;
+  }
+  .contact-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+    width: 100px;
+    background-color: white;
+  }
+
+  .contact-btn > h2 {
+    font-size: 1.1rem;
+  }
+  .cart-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+    width: 100px;
+    background-color: white;
+  }
+
+  .cart-btn > h2 {
+    font-size: 1.1rem;
+  }
+
+  .navigation {
+    position: absolute;
+    top: -100%;
+    right: 50px;
+    flex-direction: column;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: top 0.5s ease-in-out;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+  }
+
+  .navigation.active {
+    top: 60px;
+  }
+
+  .menu-bar {
+    display: block;
+  }
+}

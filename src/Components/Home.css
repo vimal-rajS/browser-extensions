@@ -1,0 +1,873 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shojumaru&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+.carousel .carousel-slider {
+  height: 50vh !important;
+}
+.carousel .slide img {
+  max-height: 95vh;
+  width: 100%;
+  object-fit: cover;
+}
+.variety-title {
+  padding: 30px 10px;
+  font-family: "Cormorant Unicase", serif;
+  text-align: center;
+  font-size: 2.9rem;
+}
+
+.variety-shirt {
+  display: flex;
+  justify-content: end;
+  height: 500px;
+}
+.variety-shirt-details {
+  position: relative;
+  left: 35px;
+  top: 150px;
+  margin-bottom: 10px;
+}
+.variety-shirt-details > h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 10px;
+}
+.variety-shirt-details > button {
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  background-color: white;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.underline {
+  width: 110px;
+  height: 2px;
+  background-color: black;
+  transition: width 0.4s ease;
+}
+.variety-shirt:hover .underline {
+  width: 30px;
+  background-color: red;
+}
+
+.variety-shirt > img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+}
+.variety-shoe {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  position: relative;
+  top: -50px;
+}
+.variety-shoe > img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+}
+.variety-shoe-details {
+  position: relative;
+  right: 25px;
+  top: 150px;
+  margin-bottom: 10px;
+}
+.variety-shoe-details > h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+.variety-shoe-details > button {
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  background-color: white;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 30px;
+}
+.shoe-underline {
+  width: 110px;
+  height: 2px;
+  background-color: black;
+  transition: width 0.4s ease;
+  margin-left: 30px;
+}
+.variety-shoe:hover .shoe-underline {
+  width: 30px;
+  background-color: red;
+  margin-left: 30px;
+}
+.variety-glass {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: -50px;
+}
+.variety-glass > img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+}
+.variety-glass-details {
+  position: relative;
+  left: 20px;
+  top: 150px;
+  margin-bottom: 10px;
+}
+.variety-glass-details > h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: 1.3px;
+}
+.variety-glass-details > button {
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  background-color: white;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.glass-underline {
+  width: 110px;
+  height: 2px;
+  background-color: black;
+  transition: width 0.4s ease;
+}
+.variety-glass:hover .glass-underline {
+  width: 30px;
+  background-color: red;
+}
+.treading-collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 0px;
+}
+.treading-collection > h1 {
+  font-family: "Cormorant Unicase", serif;
+  font-size: 2.4rem;
+}
+.treading-btn {
+  padding: 30px 20px;
+}
+.treading-btn > button {
+  background-color: gray;
+  padding: 10px 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+  border: none;
+}
+.treading-cart {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.treading-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.treading-column > img {
+  height: 450px;
+  width: 300px;
+  object-fit: cover;
+  -webkit-transition: transform 0.9s ease;
+  -o-transition: transform 0.9s ease;
+  -moz-transition: transform 0.9s ease;
+  transition: transform 0.2s ease;
+}
+
+.treading-column > img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.treading-cart-details > h2 {
+  font-family: "Cormorant Infant", serif;
+}
+.treading-cart-details > p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.treading-more-btn {
+  margin-top: 15px;
+}
+.treading-more-btn > button {
+  padding: 10px 25px;
+  letter-spacing: 1px;
+  background-color: lightgrey;
+  border: none;
+  outline: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+.treading-more-btn > button:hover {
+  cursor: pointer;
+  background-color: rgb(167, 162, 162);
+}
+.offer-div {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+}
+.offer-img {
+  height: 50vh;
+  width: 50%;
+}
+.offer-img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.offer-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.offer-details > h2 {
+  font-family: "Shojumaru", serif;
+  font-size: 3rem;
+}
+.offer-details > h4 {
+  font-size: 2.5rem;
+  font-family: "Geo", serif;
+}
+.offer-coupon {
+  display: flex;
+  padding: 20px 25px;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+.offer-coupon > p {
+  font-size: 1.2rem;
+  font-family: "Fredericka the Great", serif;
+}
+.offer-coupon > button {
+  border: none;
+  padding: 5px 5px;
+  outline: none;
+  cursor: pointer;
+}
+.offer-coupon > button:hover {
+  background-color: gainsboro;
+}
+.offer-coupon > h6 {
+  color: green;
+}
+.offer-timer {
+  display: flex;
+  justify-content: center;
+}
+.offer-timer > h1 {
+  font-family: "Fredericka the Great", serif;
+  font-size: 2.2rem;
+}
+.offer-btn {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+.offer-btn > button {
+  outline: none;
+  background-color: white;
+  padding: 10px 15px;
+  border: 1px solid black;
+  font-family: "Outfit", serif;
+  cursor: pointer;
+}
+.offer-btn > button:hover {
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.gird-section > h1 {
+  padding: 15px 10px;
+  font-family: "Cormorant Unicase", serif;
+  text-align: center;
+  font-size: 2.9rem;
+  margin: 20px 0px;
+}
+.gird-container {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 30px auto;
+  align-items: center;
+}
+
+.gird-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3px;
+}
+
+.gird-images > img {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+.gird-details > h1 {
+  padding: 13px 0px;
+  color: rgb(252, 26, 26);
+  font-size: 1.9rem;
+  font-family: "Cinzel Decorative", serif;
+}
+.gird-details > p {
+  text-align: justify;
+  letter-spacing: 0.5px;
+  font-family: "Glegoo", serif;
+}
+.shop-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.delivery > img {
+  height: 100px;
+}
+
+.delivery > p {
+  font-size: 1rem;
+  color: gray;
+}
+.payment > img {
+  height: 55px;
+  margin: 25px 0px;
+}
+.payment > p {
+  color: gray;
+}
+.online > img {
+  height: 70px;
+  margin: 17px 0px;
+}
+
+.online > p {
+  color: gray;
+}
+@media only screen and (max-width: 576px) {
+  .variety-s {
+    padding-bottom: 50px;
+  }
+  .variety-title {
+    padding: 15px 10px;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .variety-shirt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 30px 0px;
+  }
+  .variety-shirt-details {
+    position: relative;
+    left: 20px;
+    top: 15px;
+    margin-bottom: 10px;
+  }
+  .variety-shirt-details > h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-bottom: 10px;
+  }
+  .variety-shirt-details > button {
+    outline: none;
+    border: none;
+    margin: 10px 5px;
+    letter-spacing: 2px;
+    background-color: white;
+    font-size: 1.3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .underline {
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.4s ease;
+    margin: 0px 5px;
+  }
+  .variety-shirt:hover .underline {
+    width: 30px;
+    background-color: red;
+  }
+
+  .variety-shirt > img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+  }
+  .variety-shoe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+  }
+  .variety-shoe > img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+  }
+  .variety-shoe-details {
+    position: relative;
+    left: 20px;
+    top: 15px;
+    margin-bottom: 10px;
+  }
+  .variety-shoe-details > h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+  }
+  .variety-shoe-details > button {
+    outline: none;
+    border: none;
+    margin: 0px 5px;
+    letter-spacing: 2px;
+    background-color: white;
+    font-size: 1.3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .shoe-underline {
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.4s ease;
+    margin: 5px 5px;
+  }
+  .variety-shoe:hover .shoe-underline {
+    width: 30px;
+    background-color: red;
+    margin: 5px 5px;
+  }
+  .variety-glass {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    position: relative;
+    top: 50px;
+    padding: 25px 0px;
+  }
+  .variety-glass > img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+  }
+  .variety-glass-details {
+    position: relative;
+    left: 20px;
+    top: 50px;
+    margin-bottom: 10px;
+  }
+  .variety-glass-details > h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 1.3px;
+  }
+  .variety-glass-details > button {
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    background-color: white;
+    font-size: 1.3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .glass-underline {
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.4s ease;
+  }
+  .variety-glass:hover .glass-underline {
+    width: 30px;
+    background-color: red;
+  }
+  .treading-collection {
+    padding: 30px 0px;
+  }
+  .treading-collection > h1 {
+    font-size: 1.8rem;
+  }
+  .treading-btn {
+    padding: 20px 10px;
+  }
+  .treading-btn > button {
+    font-size: 1.4rem;
+  }
+  .treading-row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .treading-column > img {
+    height: 400px;
+    width: 300px;
+    -webkit-transition: transform 0.9s ease;
+    -o-transition: transform 0.9s ease;
+    -moz-transition: transform 0.9s ease;
+    transition: transform 0.2s ease;
+  }
+  .treading-more-btn {
+    margin-top: 25px;
+  }
+  .treading-more-btn > button {
+    padding: 10px 25px;
+    letter-spacing: 1px;
+    background-color: lightgrey;
+    border: none;
+    outline: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+  }
+  .treading-more-btn > button:hover {
+    cursor: pointer;
+    background-color: rgb(167, 162, 162);
+  }
+  .offer-div {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .offer-img {
+    height: 450px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+  }
+  .offer-img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .offer-details > h2 {
+    font-family: "Shojumaru", serif;
+    font-size: 2rem;
+  }
+  .offer-details > h4 {
+    font-size: 1.8rem;
+    font-family: "Geo", serif;
+  }
+  .offer-coupon > p {
+    font-size: 1rem;
+    font-family: "Fredericka the Great", serif;
+  }
+  .offer-timer > h1 {
+    font-family: "Fredericka the Great", serif;
+    font-size: 1.5rem;
+  }
+  .gird-section {
+    padding-top: 20px;
+  }
+  .gird-section > h1 {
+    text-align: center;
+    margin: 20px 0px;
+    padding: 15px 10px;
+    font-family: "Cormorant Unicase", serif;
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  .gird-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 15px auto;
+    align-items: center;
+  }
+  .gird-images {
+    align-content: center;
+    grid-template-columns: 1fr;
+  }
+  .gird-images > img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+  }
+  .gird-details > h1 {
+    padding: 13px 0px;
+    color: rgb(252, 26, 26);
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  .gird-details > p {
+    text-align: justify;
+    letter-spacing: 0.5px;
+    padding: 15px 25px;
+  }
+  .shop-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .variety-s {
+    padding-bottom: 50px;
+  }
+  .variety-shirt {
+    display: flex;
+    justify-content: end;
+    height: 500px;
+  }
+  .variety-shirt-details {
+    position: relative;
+    left: 35px;
+    top: 150px;
+    margin-bottom: 10px;
+  }
+  .variety-shirt-details > h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-bottom: 10px;
+  }
+  .variety-shirt-details > button {
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    background-color: white;
+    font-size: 1.3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .underline {
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.4s ease;
+  }
+  .variety-shirt:hover .underline {
+    width: 30px;
+    background-color: red;
+  }
+
+  .variety-shirt > img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+  }
+  .variety-shoe {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    position: relative;
+    top: 50px;
+  }
+  .variety-shoe > img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+  }
+  .variety-shoe-details {
+    position: relative;
+    right: 20px;
+    top: 150px;
+    margin-bottom: 10px;
+  }
+  .variety-shoe-details > h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+  }
+  .variety-shoe-details > button {
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    background-color: white;
+    font-size: 1.3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-left: 30px;
+  }
+  .shoe-underline {
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.4s ease;
+    margin-left: 30px;
+  }
+  .variety-shoe:hover .shoe-underline {
+    width: 30px;
+    background-color: red;
+    margin-left: 30px;
+  }
+  .variety-glass {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 80px;
+    margin: 25px 0px;
+  }
+  .variety-glass > img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+  }
+  .variety-glass-details {
+    position: relative;
+    left: 20px;
+    top: 150px;
+    margin-bottom: 10px;
+  }
+  .variety-glass-details > h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 1.3px;
+  }
+  .variety-glass-details > button {
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    background-color: white;
+    font-size: 1.3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .glass-underline {
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.4s ease;
+  }
+  .variety-glass:hover .glass-underline {
+    width: 30px;
+    background-color: red;
+  }
+  .treading-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .offer-div {
+    height: 40vh;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+  }
+  .offer-img {
+    height: 400px;
+    width: 400px;
+  }
+  .offer-img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .offer-details > h2 {
+    font-family: "Shojumaru", serif;
+    font-size: 2rem;
+  }
+  .offer-details > h4 {
+    font-size: 2rem;
+    font-family: "Geo", serif;
+  }
+  .offer-coupon > p {
+    font-size: 1rem;
+    font-family: "Fredericka the Great", serif;
+  }
+  .offer-timer > h1 {
+    font-family: "Fredericka the Great", serif;
+    font-size: 1.4rem;
+  }
+  .gird-section > h1 {
+    padding: 5px 5px;
+    font-family: "Cormorant Unicase", serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 10px 0px;
+  }
+  .gird-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    align-items: center;
+  }
+  .gird-images > img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+  }
+  .gird-details > h1 {
+    padding: 13px 0px;
+    color: rgb(252, 26, 26);
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  .gird-details > p {
+    text-align: justify;
+    letter-spacing: 0.5px;
+    padding: 5px 55px;
+  }
+  .shop-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+}
